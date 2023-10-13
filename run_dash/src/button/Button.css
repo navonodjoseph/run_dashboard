@@ -1,0 +1,10 @@
+/* src/components/Button.css */
+.button {
+    background-color: #dae3f6; /* Set the background color to your desired color */
+    border: none; /* Remove the default button border */
+    border-radius: 4px; /* Apply a slight border radius for rounded corners */
+    padding: 10px 20px; /* Adjust padding as needed */
+    color: black; /* Set the text color */
+    cursor: pointer; /* Add a pointer cursor for interaction */
+  }
+  
