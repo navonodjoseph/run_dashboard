@@ -1,17 +1,23 @@
 /* src/components/Navbar.css */
-.navbar {
+.nav{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0; /* Adjust top and bottom padding */
+  }
+  
+  .navleft {
     display: flex;
     align-items: center;
-    background-color: #333; /* Set the background color */
-    color: #fff; /* Set the text color */
-    padding: 10px 20px; /* Adjust padding as needed */
+    width: 100%; /* Make the "navbar-left" span the full width */
+    padding: 0 20px; /* Adjust left and right padding */
   }
   
   .hamburger-menu {
-    margin-right: 20px; /* Add spacing between the hamburger icon and the banner */
+    margin-right: 20px;
+    font-size: 24px;
   }
   
   .banner {
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 24px;
   }
   

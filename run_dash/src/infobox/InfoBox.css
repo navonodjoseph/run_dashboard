@@ -1,0 +1,23 @@
+/* src/components/InfoBox.css */
+.info-box {
+    width: 200px;
+    height: 200px;
+    background-color: #dae3f6; /* Set the background color */
+    border-radius: 8px; /* Apply a slight border radius for rounded corners */
+    text-align: center;
+    margin: 10px; /* Adjust margin as needed */
+  }
+  
+  .box-content {
+    padding: 10px; /* Adjust padding as needed */
+  }
+  
+  .title {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .data {
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  

@@ -1,12 +1,16 @@
-import Menu from './Menu'
-import Button from './button/Button'
+import Nav from './nav/Nav'
+import InfoBox from './infobox/InfoBox'
+import InfoBoxData from './data/InfoBoxData'
 function Main(){
 
     return(
-        <div className='main'>
-        <p>this is my main reporting dash</p>
-        <Menu/>
-        <Button/>
+        <div className='container'>
+        <Nav/>
+        <div className="info-box-container">
+        {InfoBoxData.map((info, index) => (
+          <InfoBox key={index} title={info.title} data={info.data} />
+        ))}
+      </div>
         </div>
     )
 }
